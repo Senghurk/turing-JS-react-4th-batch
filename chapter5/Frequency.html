@@ -1,0 +1,18 @@
+<html>
+    <script>
+
+    let frequency = {};//{m:1,i:1,s:1}
+    for(let letter of "mississippi") 
+    {
+        if (frequency[letter]) //frequency['m']
+        { 
+            frequency[letter]++;
+        } 
+        else 
+        {
+            frequency[letter] = 1;
+        } 
+    }
+    console.log("Frequency  ",frequency);
+    </script>   
+</html>
